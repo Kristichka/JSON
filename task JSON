@@ -30,7 +30,7 @@ JSON
  11. Отправить изменения на внешний репозиторий.
    git add.
    git commit -m"add personal information"
-   git push 
+   git push origin --all
    
  12. Создать файл preferences.json
      touch preferences.json
@@ -56,7 +56,7 @@ Cntr+C
  15. Отправить сразу 2 файла на внешний репозиторий.
      git add.
      git commit -m"add two files"
-     git push 
+      git push origin --all
  
  16. На веб интерфейсе создать файл bug_report.json.
   add file - Create new file -  bug_report.json
